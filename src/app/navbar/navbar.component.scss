@@ -1,0 +1,21 @@
+.navbar {
+    background: #f9f9f9;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-toggle {
+    display: none;
+}
+
+.navbar-toggler {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 750px) {
+    .sidebar-toggle {
+        display: block;
+    }
+}
