@@ -12,10 +12,10 @@ import { GalleryComponent } from './gallery/gallery.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
     NavbarComponent,
     SidebarComponent,
-    GalleryComponent
+    GalleryComponent,
+    AppComponent,
   ],
   imports: [
     BrowserModule,
