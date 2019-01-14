@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule } from '@angular/router';
 import { AppRoutes } from './app.routing';
 import { GalleryComponent } from './gallery/gallery.component';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { GalleryComponent } from './gallery/gallery.component';
     NavbarComponent,
     SidebarComponent,
     GalleryComponent,
+    BlogComponent,
     AppComponent,
   ],
   imports: [
